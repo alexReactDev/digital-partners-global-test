@@ -1,0 +1,27 @@
+.row {
+	display: flex;
+	gap: 2px;
+}
+
+.row:not(:last-child) {
+	margin-bottom: 2px;
+}
+
+.label {}
+
+.label__title {
+	margin-bottom: 5px;
+	color: var(--white);
+	text-align: center;
+}
+
+.label__text {
+	font-size: 0.625rem;
+	text-align: center;
+}
+
+.weekDay {
+	width: 24px;
+	height: 16px;
+	text-align: center;
+}

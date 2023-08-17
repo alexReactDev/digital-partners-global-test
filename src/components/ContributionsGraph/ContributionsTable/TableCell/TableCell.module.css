@@ -5,11 +5,11 @@
 }
 
 .cell:hover {
-	border: solid #808080 1px;
+	outline: solid #808080 1px;
 }
 
 .cell_active {
-	border:  solid var(--black) 1px;
+	outline:  solid var(--black) 1px;
 }
 
 .cell_gray {
@@ -37,7 +37,7 @@
 	bottom: 26px;
 	left: 8px;
 	transform: translateX(-50%);
-	width: 150px;
+	width: 180px;
 	border-radius: 3px;
 	background-color: var(--black);
 }

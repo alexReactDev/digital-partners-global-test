@@ -1,4 +1,4 @@
-import TableCell from "../TableCell/TableCell";
+import TableCell from "../ContributionsTable/TableCell/TableCell.js";
 import styles from "./Legend.module.css";
 
 export default function Legend() {
