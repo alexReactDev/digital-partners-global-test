@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import TableRow from "./TableRow/TableRow";
 
 import styles from "./ContributionsTable.module.css";
+import TableHeading from "./TableHeading/TableHeading";
 
 export default function Table() {
 	const [ contributions, setContributions ] = useState(null);
@@ -30,8 +31,8 @@ export default function Table() {
 
 	return (
 		<table className={styles.table}>
-			<thead>
-
+			<thead className={styles.table__head}>
+				<TableHeading />
 			</thead>
 			<tbody>
 				<TableRow initialDate={initialDate} contributions={contributions} />

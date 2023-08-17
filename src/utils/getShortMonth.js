@@ -1,4 +1,4 @@
-export default function getMonth(month) {
+export default function getShortMonth(month) {
 	switch(month) {
 		case 0: return "Янв.";
 		case 1: return "Февр.";
