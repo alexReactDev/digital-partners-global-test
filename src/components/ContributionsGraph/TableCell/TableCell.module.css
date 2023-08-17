@@ -1,0 +1,58 @@
+.cell {
+	position: relative;
+	width: 15px;
+	height: 15px;
+}
+
+.cell:hover {
+	border: solid #808080 1px;
+}
+
+.cell_active {
+	border:  solid var(--black) 1px;
+}
+
+.cell_gray {
+	background-color: var(--gray);
+}
+
+.cell_blue {
+	background-color: var(--blue-1);
+}
+
+.cell_blue2 {
+	background-color: var(--blue-2);
+}
+
+.cell_blue3 {
+	background-color: var(--blue-3);
+}
+
+.cell_blue4 {
+	background-color: var(--blue-4);
+}
+
+.popover {
+	position: absolute;
+	bottom: 26px;
+	left: 8px;
+	transform: translateX(-50%);
+	width: 150px;
+	border-radius: 3px;
+	background-color: var(--black);
+}
+
+.popover::after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -10px;
+	border-top: solid var(--black) 10px;
+	border-left: solid transparent 8px;
+	border-right: solid transparent 8px;
+}
+
+.popover__body {
+	padding: 10px;
+}
